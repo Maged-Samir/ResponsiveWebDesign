@@ -14,9 +14,16 @@ window.onscroll = function() {
   }
 
 
-   // Start the carousel and set the interval to 1 second (1000 milliseconds)
-   document.addEventListener('DOMContentLoaded', function() {
-    var carousel = new bootstrap.Carousel(document.getElementById('carousel1'), {
-      interval: 5000
+  //  // Start the carousel and set the interval to 1 second (1000 milliseconds)
+  //  document.addEventListener('DOMContentLoaded', function() {
+  //   var carousel = new bootstrap.Carousel(document.getElementById('carousel1'), {
+  //     interval: 5000
+  //   });
+  // });
+
+     // Start the carousel and set the interval to 1 second (1000 milliseconds)
+     document.addEventListener('DOMContentLoaded', function() {
+      var carousel = new bootstrap.Carousel(document.getElementById('carousel1'), {
+        interval: 5000
+      });
     });
-  });
